@@ -43,3 +43,5 @@ let mySchool = new School("Nextgen Student")
 console.log(mySchool)
 mySchool.getAge("21-04-2004");
 mySchool.setName();
+
+// sample test

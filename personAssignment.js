@@ -1,10 +1,7 @@
 const moment = require('moment')
-var ageCalculator = require('age-calculator');
- 
-  let { AgeFromDateString } = require('age-calculator');
+let { AgeFromDateString } = require('age-calculator');
 
-
-function Person(myName, dateOfBirth){
+function Person(myName){
     validatePerson = () => {
         if(typeof(myName) === "string"){
             return true;
@@ -19,7 +16,7 @@ function Person(myName, dateOfBirth){
                 console.log(myName);
             }
             else {
-                console.log("You are a bot not a person");
+                console.log("Be like say you be Bot");
             }
         },
         height: "173 cm",
@@ -32,8 +29,6 @@ function Person(myName, dateOfBirth){
         }
     }
 }
-
-
 function School (myName){
    return Person.call(this, myName)
 }
@@ -41,5 +36,5 @@ function School (myName){
 let mySchool = new School("Nextgen Student")
 
 console.log(mySchool)
-mySchool.getAge("21-04-2004");
+mySchool.getAge("21-04-2004"); // sample date of birth 
 mySchool.setName();

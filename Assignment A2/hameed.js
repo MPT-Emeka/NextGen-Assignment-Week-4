@@ -56,6 +56,10 @@ console.log(test.credentials)       // Also with OOP abstraction, the modelHamee
                                     // we don't know what the underlying code does or the properties it uses, 
                                     // but gives it gives a comprehensible output to the end user. 
 
+
+
+// Below the OOP principle of polymorphism was used to change the .apply() function
+// The place where Hameed's friend James wants to apply is Nextgen. 
 let test2 = function (name){
     let james = boy.call(this, name)
     james.apply = function(){

@@ -2,9 +2,9 @@
   "name": "assignment-a2",
   "version": "1.0.0",
   "description": "",
-  "main": "hameed.js",
+  "main": "shape.js",
   "scripts": {
-    "start": "node hameed.js"
+    "start": "shape.js"
   },
   "keywords": [],
   "author": "",

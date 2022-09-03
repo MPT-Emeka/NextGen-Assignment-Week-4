@@ -1,0 +1,12 @@
+{
+  "name": "assignment-a2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hameed.js",
+  "scripts": {
+    "start": "node hameed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

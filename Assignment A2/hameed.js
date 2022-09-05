@@ -17,23 +17,6 @@ function boy(name){
         },
         apply: function(){
             return ` to Seamfix for the ${this.occupation} position`
-            // switch(){
-            //     case1 = return this.credentials[3]
-                // case 2 = return "he wants to open a Zenith bank Tech bro domiciliary account"
-              //  default
-                  // return default code.
-
-            switch (acct) {
-                case "Zenith":
-                    return "he wants to open a Zenith bank Tech bro domiciliary account"
-                    break;
-                default:
-                    return `Hameed wants to send his credentials: ${this.credentials} to Seamfix for ${this.occupation} position`;
-                    break;
-            }
-        },
-        madaraJutsu: function(){
-            return Madara + " With Susanoo"
         },
         hameedFriends: function(friends){ 
             if(friends === "James and John"){
